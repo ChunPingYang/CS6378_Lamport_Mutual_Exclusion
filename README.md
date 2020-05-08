@@ -22,8 +22,8 @@ Implement a solution that mimics a replicated file system. The file system consi
 Instead of configuration in UTD campus server, replace with locolhost to stimulate the project. In this project, there are three file directories representing three servers with four files for each one. There are two configuration files called "config.txt" and "ports.txt", which is used to set up the configuration. Here is the steps below:
 1. Run class "ServerNode" three times individually, enter 0, 1, 2, respectively. One server waits for other two servers until they are active, and then connect each other. 
 2. Run multiple instance for class "ClientNode", which represents multiple clients. Each client make 100 times requests to servers. Each time the program make a request to write to one of four files randomly in one of three servers randomly.
-3.  Each server's output must be as follows:
-client1 append 1 time on f2.txt on Server0
-client1 append 4 time on f2.txt on Server0
-client2 append 4 time on f2.txt on Server0
+3.  Each server's output must be as follows: <br/>
+client1 append 1 time on f2.txt on Server0 <br/>
+client1 append 4 time on f2.txt on Server0 <br/>
+client2 append 4 time on f2.txt on Server0 
 
